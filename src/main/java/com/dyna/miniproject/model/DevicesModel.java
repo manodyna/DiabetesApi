@@ -1,4 +1,14 @@
 package com.dyna.miniproject.model;
 
-public class Devices {
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class DevicesModel {
+    @Id
+    @GeneratedValue
+    private int deviceId;
+    private String deviceType;
+
 }
