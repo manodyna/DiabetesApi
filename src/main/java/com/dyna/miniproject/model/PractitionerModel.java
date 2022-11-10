@@ -26,6 +26,10 @@ public class PractitionerModel {
         this.certification = certification;
     }
 
+    public PractitionerModel() {
+
+    }
+
     public int getPractitionerId() {
         return practitionerId;
     }
